@@ -1,0 +1,41 @@
+rental-website/
+├── public/
+│   ├── index.html
+│   └── assets/
+│       └── images/
+├── src/
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Header/
+│   │   │   ├── Footer/
+│   │   │   ├── Button/
+│   │   │   └── SearchBar/
+│   │   ├── home/
+│   │   │   ├── Welcome/
+│   │   │   ├── GetToKnow/
+│   │   │   ├── FilterSection/
+│   │   │   └── HouseList/
+│   │   └── property/
+│   │       ├── PropertyCard/
+│   │       └── PropertyDetails/
+│   ├── pages/
+│   │   ├── Home/
+│   │   ├── Contact/
+│   │   ├── Shop/
+│   │   └── Booking/
+│   ├── layouts/
+│   │   └── MainLayout/
+│   ├── services/
+│   │   ├── api/
+│   │   └── auth/
+│   ├── hooks/
+│   ├── utils/
+│   ├── constants/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── styles/
+│   ├── context/
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md 

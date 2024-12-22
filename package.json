@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.5.0",
+    "axios": "^1.7.9",
+    "formik": "^2.4.6",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.1.0",
+    "react-scripts": "^5.0.1",
+    "yup": "^1.6.1"
+  }
+}
