@@ -1,0 +1,32 @@
+.get-to-know {
+  padding: 5rem 0;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.get-to-know h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.1em;
+}
+
+.get-to-know p {
+  color: #666;
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+}
+
+.get-to-know .btn {
+  background-color: #ff7a45;
+  color: white;
+  padding: 0.75rem 2.5rem;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.get-to-know .btn:hover {
+  background-color: #ff6b2b;
+}

@@ -1,0 +1,25 @@
+/* ContactPage.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contact-section {
+  @apply text-center py-16 px-4;
+}
+
+.contact-heading {
+  @apply text-4xl font-light mb-8;
+}
+
+.contact-info {
+  @apply space-y-2 mb-8;
+}
+
+.opening-hours {
+  @apply relative bg-cover bg-center py-16 text-white text-center;
+  /*backgroundImage: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/logo512.png');*/
+}
+
+.footer {
+  @apply text-center py-8 space-y-2;
+}

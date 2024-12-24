@@ -1,0 +1,54 @@
+.property-card {
+  background-color: #f8f7f2;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.property-image {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+}
+
+.property-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.property-card:hover .property-image img {
+  transform: scale(1.1);
+}
+
+.property-info {
+  padding: 1.5rem;
+}
+
+.property-info h3 {
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.property-info .price {
+  color: #ff7a45;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.property-info .btn {
+  width: 100%;
+  background-color: #665649;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.property-info .btn:hover {
+  background-color: #ff6b2b;
+}

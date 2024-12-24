@@ -24,7 +24,8 @@
 
 // export default App;
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './pages/HomePage';
+import HomePage from './pages/HomePage/HomePage';
+import ContactPage from './pages/ContactPage/ContactPage';
 import './App.css';
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </div>
     </Router>

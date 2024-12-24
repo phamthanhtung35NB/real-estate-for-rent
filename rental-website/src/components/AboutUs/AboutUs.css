@@ -1,0 +1,25 @@
+.about-us {
+  background-color: #665649;
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.about-us h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.about-us .subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+}
+
+.about-us .description {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  padding: 0 1rem;
+}
