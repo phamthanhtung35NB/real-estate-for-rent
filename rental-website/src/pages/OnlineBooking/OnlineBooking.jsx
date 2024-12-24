@@ -1,11 +1,12 @@
 import React from 'react';
 import './OnlineBooking.css';
 import Header from "../../components/Header/Header";
+import Footer from "../../components/HomePage/Footer/Footer";
 
 const properties = [
   {
     id: 1,
-    image: '/house1.jpg',
+    image: 'images/house1.jpg',
     type: 'House',
     size: 250,
     hours: 5,
@@ -14,7 +15,7 @@ const properties = [
   },
   {
     id: 2,
-    image: '/house2.jpg',
+    image: 'images/house2.jpg',
     type: 'House',
     size: 250,
     hours: 5,
@@ -23,7 +24,7 @@ const properties = [
   },
   {
     id: 3,
-    image: '/house3.jpg',
+    image: 'images/house3.jpg',
     type: 'House',
     size: 150,
     hours: 5,
@@ -32,7 +33,7 @@ const properties = [
   },
   {
     id: 4,
-    image: '/house4.jpg',
+    image: 'images/house4.jpg',
     type: 'House',
     size: 50,
     hours: 5,
@@ -41,7 +42,7 @@ const properties = [
   },
   {
     id: 5,
-    image: '/apartment1.jpg',
+    image: 'images/apartment1.jpg',
     type: 'Apartment',
     size: 50,
     hours: 5,
@@ -50,7 +51,7 @@ const properties = [
   },
   {
     id: 6,
-    image: '/apartment2.jpg',
+    image: 'images/apartment2.jpg',
     type: 'Apartment',
     size: 50,
     hours: 5,
@@ -73,19 +74,23 @@ const PropertyCard = ({ image, type, size, hours, price, action }) => (
 
 const OnlineBooking = () => {
   return (
-    <div className="container">
+    <div className="online-booking">
       <Header />
+
+    <div className="container">
       <h1>House Available</h1>
       <div className="property-grid">
         {properties.map(property => (
           <PropertyCard key={property.id} {...property} />
         ))}
       </div>
-      <footer>
+      <Footer />
+      {/* <footer>
         <p>tranngocanhthuz01220003@gmail.com</p>
         <p>©2023 Đồ RẻnZ. Tự hào được xây dựng từ Wix.com</p>
-      </footer>
+      </footer> */}
     </div>
+        </div>
   );
 };
 

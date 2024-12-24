@@ -2,6 +2,8 @@
   position: relative;
   height: 600px;
   background-color: #1a1a1a;
+  background-size: auto;
+  background-image: url('/public/images/welcome-background.jpg');
 }
 
 .welcome::before {
@@ -20,7 +22,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: #d3d0d0;
   max-width: 500px;
   margin: auto;
   padding: 4rem;

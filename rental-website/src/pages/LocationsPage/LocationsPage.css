@@ -47,9 +47,13 @@
   .location-city {
     color: #2563eb;
   }
+.locations-page{
+  min-height: 100vh;
+  background-color: white;
+}
   
   .button {
-    background-color: #f97316;
+    background-color: #665649;
     color: #ffffff;
     padding: 12px 24px;
     border-radius: 4px;
