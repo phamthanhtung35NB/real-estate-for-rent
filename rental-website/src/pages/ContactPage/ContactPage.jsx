@@ -1,9 +1,11 @@
 import React from 'react';
 import './ContactPage.css';
+import Header from "../../components/Header/Header";
 
 const ContactPage = () => {
   return (
       <div className="flex flex-col min-h-screen">
+        <Header />
         {/* Main content */}
         <main className="flex-grow">
           {/* Contact Information Section */}

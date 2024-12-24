@@ -13,21 +13,29 @@
 }
 
 .filter-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 4rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
   max-width: 900px;
   margin: 0 auto;
   padding: 0 1rem;
 }
 
-.price-range h3 {
+.range-section {
+  width: 50%;
+}
+
+.price-range, .area-range {
+  margin-bottom: 2rem;
+}
+
+.price-range h3, .area-range h3 {
   color: #ff7a45;
   margin-bottom: 1.5rem;
   font-size: 1.125rem;
 }
 
-.price-range input[type="range"] {
+input[type="range"] {
   width: 100%;
   height: 2px;
   background: #ddd;
@@ -35,7 +43,7 @@
   appearance: none;
 }
 
-.price-range input[type="range"]::-webkit-slider-thumb {
+input[type="range"]::-webkit-slider-thumb {
   appearance: none;
   width: 16px;
   height: 16px;
@@ -44,7 +52,11 @@
   cursor: pointer;
 }
 
-.area-filter h3 {
+.area-section {
+  width: 50%;
+}
+
+.area-section h3 {
   font-size: 2rem;
   font-weight: 300;
   margin-bottom: 1.5rem;

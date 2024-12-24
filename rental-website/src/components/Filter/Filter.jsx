@@ -15,11 +15,19 @@ const Filter = () => {
       <div className="filter">
         <h2>FILTER</h2>
         <div className="filter-container">
-          <div className="price-range">
-            <h3>Price Range</h3>
-            <input type="range" />
+          <p></p>
+          <div className="range-section">
+            <div className="price-range">
+              <h3>Price Range</h3>
+              <input type="range" min="0" max="100" />
+            </div>
+            <div className="area-range">
+              <h3>Area Range</h3>
+              <input type="range" min="0" max="500" />
+            </div>
           </div>
-          <div className="area-filter">
+
+          <div className="area-section">
             <h3>AREA</h3>
             <div className="districts">
               {districts.map((district) => (

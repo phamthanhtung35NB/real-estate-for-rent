@@ -13,12 +13,16 @@
   align-items: center;
 }
 
-.logo {
-  color: #ff7a45;
-  font-size: 1.25rem;
-  font-weight: 300;
+/*.logo {*/
+/*  color: #ff7a45;*/
+/*  font-size: 1.25rem;*/
+/*  font-weight: 300;*/
+/*}*/
+.header .logo {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px;
+  /*max-height: 50px; !* Adjust the max-height as needed *!*/
 }
-
 .nav-links {
   display: flex;
   gap: 2rem;
@@ -67,4 +71,12 @@
   align-items: center;
   justify-content: center;
   font-size: 0.75rem;
+}
+.header .logo {
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.nav-link.active {
+  color: brown;
 }

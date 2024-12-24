@@ -1,0 +1,77 @@
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 48px 16px;
+    text-align: center;
+  }
+  
+  .content {
+    margin-bottom: 48px;
+  }
+  
+  .icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 24px;
+    color: #f97316;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 16px;
+  }
+  
+  .subtitle {
+    color: #6b7280;
+    margin-bottom: 32px;
+  }
+  
+  .locations {
+    margin-bottom: 48px;
+  }
+  
+  .location {
+    margin-bottom: 32px;
+  }
+  
+  .location-name {
+    color: #6b7280;
+    margin-bottom: 8px;
+  }
+  
+  .location-address {
+    font-weight: 500;
+  }
+  
+  .location-city {
+    color: #2563eb;
+  }
+  
+  .button {
+    background-color: #f97316;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #fb923c;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 24px;
+  }
+  
+  .contact-email {
+    color: #2563eb;
+  }
+  
+  .footer-note {
+    font-size: 14px;
+    color: #9ca3af;
+  }
+  

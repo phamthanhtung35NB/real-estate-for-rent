@@ -26,6 +26,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
 import ContactPage from './pages/ContactPage/ContactPage';
+import LocationsPage from './pages/LocationsPage/LocationsPage';
+import OnlineBooking from './pages/OnlineBooking/OnlineBooking';
 import './App.css';
 
 function App() {
@@ -34,7 +36,10 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/home" element={<HomePage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/locations" element={<LocationsPage />} />
+          <Route path="/online-booking" element={<OnlineBooking />} />
         </Routes>
       </div>
     </Router>
