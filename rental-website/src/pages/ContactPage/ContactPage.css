@@ -1,25 +1,81 @@
-/* ContactPage.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.contact-page {
+  min-height: 100vh;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+}
 
 .contact-section {
-  @apply text-center py-16 px-4;
+  text-align: center;
+  padding: 4rem 1rem;
 }
 
 .contact-heading {
-  @apply text-4xl font-light mb-8;
+  font-size: 2.25rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
 }
 
 .contact-info {
-  @apply space-y-2 mb-8;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.address,
+.email {
+  color: #000000;
 }
 
 .opening-hours {
-  @apply relative bg-cover bg-center py-16 text-white text-center;
-  /*backgroundImage: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/logo512.png');*/
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 1rem;
+  color: white;
+  text-align: center;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/background2.jpg'); */
+  background-image: url('/public/images/background2.jpg');
 }
 
-.footer {
-  @apply text-center py-8 space-y-2;
+.hours-content {
+  position: relative;
+  z-index: 10;
+}
+
+.hours-heading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.hours-content p{
+  font-size: 20px;
+  /* in đậm */
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.hours-content p {
+  margin-bottom: 0.5rem;
+}
+
+.page-footer {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.footer-email {
+  color: #2563eb;
+  margin-bottom: 0.5rem;
+}
+
+.footer-copyright {
+  font-size: 0.875rem;
+  color: #6b7280;
 }
